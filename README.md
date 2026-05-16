@@ -1,31 +1,33 @@
 # 🚀 TerminalForge Windows
 
-Modern Windows Terminal setup powered by:
+A modern Windows terminal environment inspired by advanced Linux/macOS setups.
+
+TerminalForge transforms Windows Terminal into a premium Unix-like development environment with:
 
 - PowerShell 7
 - Oh My Posh
 - Nerd Fonts
-- Modern CLI tools
-- Linux-like developer experience
-
-Transform your Windows terminal into a modern Unix-style development environment.
+- modern CLI tools
+- smart navigation
+- premium prompt
+- Linux-style workflow
 
 ---
 
 # ✨ Features
 
-## Included
+## Included automatically
 
 - ✅ Windows Terminal
 - ✅ PowerShell 7
 - ✅ Oh My Posh
 - ✅ Nerd Fonts
 - ✅ Git integration
-- ✅ Fuzzy search
-- ✅ Smart autocomplete
-- ✅ File icons
+- ✅ Fuzzy finder
+- ✅ smart autocomplete
+- ✅ file/folder icons
 - ✅ Linux aliases
-- ✅ Modern CLI utilities
+- ✅ modern ultra-fast CLI tools
 
 ---
 
@@ -38,22 +40,26 @@ Transform your Windows terminal into a modern Unix-style development environment
 | posh-git | Git integration |
 | PSFzf | Fuzzy finder |
 | zoxide | Smart directory jumping |
-| eza | Modern ls |
+| eza | Modern ls replacement |
 | bat | Better cat |
-| ripgrep | Better grep |
-| fd | Better find |
+| ripgrep | Ultra-fast grep |
+| fd | Modern find |
 
 ---
 
 # 🖥 Preview
 
-Add screenshots here.
+Add your screenshots inside:
+
+```text
+/screenshots
+```
 
 ---
 
 # ⚡ Installation
 
-## 1. Open PowerShell 7 as Administrator
+## 1. Open PowerShell 7 as administrator
 
 Launch:
 
@@ -63,7 +69,7 @@ pwsh
 
 ---
 
-## 2. Allow script execution
+## 2. Temporarily allow scripts
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
@@ -79,20 +85,41 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 ---
 
-# ⚠ Windows Defender Warning
+# ⚠ Important — Windows Defender
 
-If you use **Controlled Folder Access**, you MUST allow:
+If **Controlled Folder Access** is enabled in Microsoft Defender, you MUST allow:
 
-- pwsh.exe
-- WindowsTerminal.exe
-- Code.exe
-- git.exe
+- `pwsh.exe`
+- `WindowsTerminal.exe`
+- `Code.exe`
+- `git.exe`
 
-Otherwise PowerShell modules cannot install correctly.
+Otherwise:
+- PowerShell modules may fail to install
+- PowerShell profiles may be blocked
+- some configurations may fail silently
 
 ---
 
-# 🔥 Keyboard shortcuts
+# 🎨 Recommended font
+
+Use:
+
+```text
+CaskaydiaCove Nerd Font
+```
+
+Inside:
+
+- Windows Terminal
+- Settings
+- Defaults
+- Appearance
+- Font face
+
+---
+
+# 🔥 Useful shortcuts
 
 | Shortcut | Action |
 |---|---|
@@ -112,19 +139,7 @@ z project
 
 ---
 
-# 🎨 Recommended font
-
-Use:
-
-```text
-CaskaydiaCove Nerd Font
-```
-
-Configure it inside Windows Terminal settings.
-
----
-
-# 🐧 Linux-like aliases
+# 🐧 Linux aliases
 
 | Alias | Equivalent |
 |---|---|
@@ -135,6 +150,37 @@ Configure it inside Windows Terminal settings.
 
 ---
 
+# 📁 Project structure
+
+```text
+TerminalForge-Windows/
+│
+├── setup-terminal.ps1
+├── README.md
+├── README.fr.md
+├── LICENSE
+├── screenshots/
+└── themes/
+```
+
+---
+
+# 🛠 Built with
+
+- PowerShell 7
+- Windows Terminal
+- Oh My Posh
+- Nerd Fonts
+- Winget
+
+---
+
 # 📜 License
 
 MIT
+
+---
+
+# ❤️ Contributions
+
+Pull requests and suggestions are welcome.
