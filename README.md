@@ -1,9 +1,10 @@
-# 🚀 TerminalForge Windows
-
-A modern Windows terminal environment inspired by advanced Linux/macOS setups.
 ![PowerShell](https://img.shields.io/badge/PowerShell-7+-5391FE)
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+# 🚀 TerminalForge Windows
+
+A modern Windows terminal environment inspired by advanced Linux/macOS setups.
+
 
 TerminalForge transforms Windows Terminal into a premium Unix-like development environment with:
 
