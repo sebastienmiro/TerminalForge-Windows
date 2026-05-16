@@ -1,3 +1,6 @@
+![PowerShell](https://img.shields.io/badge/PowerShell-7+-5391FE)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # 🚀 TerminalForge Windows
 
 Un environnement terminal moderne pour Windows inspiré des setups Linux/macOS avancés.
